@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.batch.core.configuration.annotation.EnableBatchProcessing"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.batch.core.configuration.annotation.JobBuilderFactory"/>
+<fullyQualifiedTypeName name="org.springframework.batch.core.configuration.annotation.StepBuilderFactory"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="com.example.ipldashboard.data.MatchInput"/>
+<fullyQualifiedTypeName name="com.example.ipldashboard.data.MatchDataProcessor"/>
+<fullyQualifiedTypeName name="org.springframework.batch.core.Step"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.batch.BatchProperties.Job"/>
+<fullyQualifiedTypeName name="org.springframework.batch.core.Job"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="com.example.ipldashboard.model.Team"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="com.example.ipldashboard.repository.TeamRepository"/>
+<fullyQualifiedTypeName name="javax.persistence.Transient"/>
+<fullyQualifiedTypeName name="com.example.ipldashboard.repository.MatchRepository"/>
+<fullyQualifiedTypeName name="com.example.ipldashboard.model.Match"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
+<fullyQualifiedTypeName name="org.springframework.data.web.PageableDefault"/>
+</qualifiedTypeNameHistroy>

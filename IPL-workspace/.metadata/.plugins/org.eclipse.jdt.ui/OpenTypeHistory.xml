@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=ipl-dashboard/C:\/Users\/chira\/.m2\/repository\/org\/springframework\/batch\/spring-batch-infrastructure\/4.3.2\/spring-batch-infrastructure-4.3.2.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.batch=/=/maven.artifactId=/spring-batch-infrastructure=/=/maven.version=/4.3.2=/=/maven.scope=/compile=/&lt;org.springframework.batch.item(ItemProcessor.class[ItemProcessor" modifiers="1537" timestamp="1618749620398"/>
+<typeInfo handle="=ipl-dashboard/C:\/Users\/chira\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.4.8\/spring-data-commons-2.4.8.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.4.8=/=/maven.scope=/compile=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1618749651027"/>
+</typeInfoHistroy>
