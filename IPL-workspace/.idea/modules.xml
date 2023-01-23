@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/IPL-workspace.iml" filepath="$PROJECT_DIR$/.idea/IPL-workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipl-dashboard/ipl-dashboard.iml" filepath="$PROJECT_DIR$/ipl-dashboard/ipl-dashboard.iml" />
     </modules>
   </component>
 </project>
