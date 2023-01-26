@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react";
 import {MatchDetailCard} from "../components/MatchDetailCard";
 import {MatchSmallCard} from "../components/MatchSmallCard";
-import { useParams } from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 import './TeamPage.scss';
 import { PieChart } from 'react-minimal-pie-chart';
 
@@ -9,7 +9,7 @@ export const TeamPage = () => {
 
     const [team, setTeam] = useState({matches:[]});
     const { teamName } = useParams(); //uses all Path Parameters and assigns to the variable
-
+    const endYear = process.env.REACT_APP_DATA_END_YEAR
     //useEffect is a function(side effects) that runs when the component is loaded
     // since we cannot directly use async with useEffect we are defining and calling another async function(fetchMatches) inside it
     useEffect(
@@ -38,8 +38,8 @@ export const TeamPage = () => {
                 Wins / Losses
                 <PieChart
                     data={[
-                        { title: 'Losses', value: team.totalMatches-team.totalWins, color: 'darkred' },
-                        { title: 'Wins', value: team.totalWins, color: '#4da375' },
+                        { title: 'Losses', value: team.totalMatches-team.totalWins, color: '#EB1D05' },
+                        { title: 'Wins', value: team.totalWins, color: '#188038' },
                     ]}
                 />
             </div>
@@ -54,7 +54,9 @@ export const TeamPage = () => {
             {team.matches.slice(1).map(match => <MatchSmallCard teamName = {team.teamName} match = {match}/>)}
 
             <div className="more-link">
-                <a href="">More ></a>
+                <Link to={`/teams/${teamName}/matches/${endYear}`}>
+                    More >
+                </Link>
             </div>
         </div>
     );
