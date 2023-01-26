@@ -61,7 +61,7 @@ import com.example.ipldashboard.model.Team;
 	      
 	      teamData.values().forEach(team->em.persist(team));
 
-	      teamData.values().forEach(team->System.out.println(team));
+//	      teamData.values().forEach(team->System.out.println(team));
 	    }
 	  }
 }

@@ -1,6 +1,7 @@
 package com.example.ipldashboard.controller;
 
 import java.time.LocalDate;
+import java.util.Iterator;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
@@ -23,6 +24,10 @@ public class TeamController {
 		this.matchRepository = matchRepository;
 	}
 
+	@GetMapping("/team")
+	public Iterable<Team> getAllTeams(){
+		return this.teamRepository.findAll();
+	}
 
 	@GetMapping("/team/{teamName}")
 	public Team getTeam(@PathVariable String teamName) {
