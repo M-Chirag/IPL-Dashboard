@@ -16,7 +16,7 @@ export const TeamPage = () => {
         () => {
             //To understand async and await keyword https://www.youtube.com/watch?v=li7FzDHYZpc
             const fetchTeam= async () => {
-                const response = await fetch(`http://localhost:8080/team/${teamName}`);
+                const response = await fetch(`${process.env.REACT_APP_API_ROOT_URL}/team/${teamName}`);
                 const data = await response.json() //fetches team data and 4 latest matches
                 setTeam(data)
 
@@ -51,7 +51,7 @@ export const TeamPage = () => {
             </div>
             {/*small tiles have the other 3 matchs*/}
 
-            {team.matches.slice(1).map(match => <MatchSmallCard teamName = {team.teamName} match = {match}/>)}
+            {team.matches.slice(1).map(match => <MatchSmallCard key={match.id} teamName = {team.teamName} match = {match}/>)}
 
             <div className="more-link">
                 <Link to={`/teams/${teamName}/matches/${endYear}`}>
